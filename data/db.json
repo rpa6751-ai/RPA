@@ -1,0 +1,162 @@
+{
+  "students": [
+    {
+      "id": "s1",
+      "name": "Anjum Kaginalli",
+      "usn": "2AV23CG005",
+      "email": "afsheenshk388@gmail.com",
+      "branch": "CSD",
+      "cgpa": 8.2,
+      "backlogs": 0
+    },
+    {
+      "id": "s2",
+      "name": "Zohra",
+      "usn": "2AV23CG008",
+      "email": "zohra@example.com",
+      "branch": "CSE",
+      "cgpa": 8.5,
+      "backlogs": 0
+    },
+    {
+      "id": "s3",
+      "name": "Afsheen",
+      "usn": "2AV23CG009",
+      "email": "afsheen@example.com",
+      "branch": "AIML",
+      "cgpa": 7.1,
+      "backlogs": 1
+    },
+    {
+      "id": "s4",
+      "name": "Maryam",
+      "usn": "2AV23CG010",
+      "email": "maryam@example.com",
+      "branch": "CSD",
+      "cgpa": 8,
+      "backlogs": 0
+    },
+    {
+      "id": "smuuxzvfetrmo",
+      "name": "test student",
+      "usn": "2AV23CG010",
+      "email": "test@gmail.com",
+      "branch": "CSE",
+      "cgpa": 7.9,
+      "backlogs": 2
+    },
+    {
+      "id": "smux0r11up4nx",
+      "name": "Rakhiya",
+      "usn": "2AV23CG010",
+      "email": "afsheenshk388@gmail.com",
+      "branch": "CSE",
+      "cgpa": 9,
+      "backlogs": 0
+    },
+    {
+      "id": "smv0kjhecyv96",
+      "name": "Anjum Kaginalli",
+      "usn": "2AV23CG013",
+      "email": "anjumkaginalli@gmail.com",
+      "branch": "CSD",
+      "cgpa": 8.8,
+      "backlogs": 0
+    }
+  ],
+  "companies": [
+    {
+      "id": "c1",
+      "name": "Quest Global",
+      "industry": "Engineering & Technology",
+      "openings": 3,
+      "roles": [
+        "Graduate Engineer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "TCS",
+      "industry": "IT Services",
+      "openings": 5,
+      "roles": [
+        "Graduate Engineer Trainee",
+        "Developer"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Infosys",
+      "industry": "Information Technology",
+      "openings": 4,
+      "roles": [
+        "Software Engineer",
+        "System Engineer"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": "a1",
+      "studentId": "s1",
+      "companyId": "c1",
+      "role": "Graduate Engineer",
+      "date": "2026-10-04",
+      "status": "Shortlisted"
+    },
+    {
+      "id": "a2",
+      "studentId": "s2",
+      "companyId": "c3",
+      "role": "Software Engineer",
+      "date": "2026-10-03",
+      "status": "Shortlisted"
+    },
+    {
+      "id": "a3",
+      "studentId": "s4",
+      "companyId": "c2",
+      "role": "Developer",
+      "date": "2026-10-02",
+      "status": "Shortlisted"
+    }
+  ],
+  "lastRun": "2026-10-09T06:13:56.803Z",
+  "lastAutomation": {
+    "runId": "runmv0khujfbhcy",
+    "source": "uipath",
+    "completedAt": "2026-10-09T06:13:56.803Z",
+    "studentsRead": 6,
+    "eligibleCount": 4,
+    "recordsChanged": 0,
+    "uipathResult": {
+      "applications": [
+        {
+          "id": "a1",
+          "studentId": "s1",
+          "companyId": "c1",
+          "role": "Graduate Engineer",
+          "date": "2026-10-04",
+          "status": "Shortlisted"
+        },
+        {
+          "id": "a2",
+          "studentId": "s2",
+          "companyId": "c3",
+          "role": "Software Engineer",
+          "date": "2026-10-03",
+          "status": "Shortlisted"
+        },
+        {
+          "id": "a3",
+          "studentId": "s4",
+          "companyId": "c2",
+          "role": "Developer",
+          "date": "2026-10-02",
+          "status": "Shortlisted"
+        }
+      ]
+    }
+  }
+}
